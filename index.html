@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Shivam Kumar Gupta — AI Engineer specializing in deep learning and GenAI." />
+   <title>Shivam Kumar Gupta</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <canvas id="cursor-canvas" aria-hidden="true"></canvas>
+   <div class="bg-waves" aria-hidden="true"></div>
+   <header class="navbar">
+      <div class="container nav-inner">
+         <div class="brand">
+            <span class="brand-dot"></span>
+            <div class="brand-text">
+               <span class="brand-name">शिवम् कुमार गुप्ता</span>
+            </div>
+         </div>
+         <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+         <nav class="nav" aria-label="Primary navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a class="pill small" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <section id="home" class="hero">
+         <div class="container hero-grid">
+            <div class="hero-copy">
+               <p class="eyebrow">Hey, I am</p>
+               <h1>Shivam Kumar Gupta</h1>
+               <p class="title">AI Engineer</p>
+               <p class="lede">I'm a B.Tech AI student at Kathmandu University, passionate about solving complex problems through cutting-edge technology. I specialize in deep learning, machine learning, and GenAI, with hands-on experience building intelligent systems that integrate research with real-world applications.</p>
+               <div class="hero-actions">
+                  <a class="btn primary" href="resume.pdf" download>Download resume</a>
+               </div>
+            </div>
+            <div class="hero-visual">
+               <div class="holo-card">
+                  <div class="scanline" aria-hidden="true"></div>
+                  <div class="portrait">
+                     <img src="FB_IMG_1746199433740.jpg" alt="Portrait of Shivam Kumar Gupta" loading="lazy">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="about" class="section">
+         <div class="container section-header">
+            <h2>Achievements & Leadership</h2>
+         </div>
+         <div class="container card-grid two">
+            <div class="card">
+               <h3>Python BootCamp Coordinator</h3>
+               <p>KUAIC, 2022</p>
+            </div>
+            <div class="card">
+               <h3>Best Photographer/Videographer</h3>
+               <p>IT Meet, 2022</p>
+            </div>
+            <div class="card">
+               <h3>Sponsor Lead</h3>
+               <p>AI Meet, 2024</p>
+            </div>
+            <div class="card">
+               <h3>Former Executive</h3>
+               <p>KUAIC</p>
+            </div>
+            <div class="card">
+               <h3>AI Education Innovation Hackathon</h3>
+               <p>Chunjae Education</p>
+            </div>
+         </div>
+      </section>
+
+      <section id="work" class="section muted">
+         <div class="container section-header">
+            <h2 class="large-heading">Projects</h2>
+         </div>
+         <div class="container card-grid three">
+            <article class="card">
+               <h3>Student Attendance Management System</h3>
+               <p>Manages student attendance, conducts quizzes, stores records, and sends feedback with AI-powered recommendations and analysis.</p>
+            </article>
+            <article class="card">
+               <h3>AI in Grievance Management System</h3>
+               <p>Includes sentiment analysis, Named Entity Recognition (NER), and classification for automated grievance processing and insights.</p>
+            </article>
+            <article class="card">
+               <h3>Vastu-Compliant AI Floor Plan</h3>
+               <p>RAG + diffusion pipeline turning natural language prompts into Vastu-aligned plans with controllable layout tokens.</p>
+            </article>
+            <article class="card">
+               <h3>Tomato Leaf Disease Classifier</h3>
+               <p>ResNet-based model hitting 99% accuracy, enabling early intervention for precision agriculture.</p>
+            </article>
+            <article class="card">
+               <h3>Wildlife Edge Detection</h3>
+               <p>Low-power multi-sensor fusion with LoRa backhaul for real-time conservation monitoring.</p>
+            </article>
+            <article class="card">
+               <h3>Image → Audio GAN</h3>
+               <p>Pix2Pix GAN translating visual inputs into audio spectra for cross-modal exploration.</p>
+            </article>
+            <article class="card">
+               <h3>Stock Prediction</h3>
+               <p>Time-series regression stack forecasting price movements with feature-driven signals.</p>
+            </article>
+            <article class="card">
+               <h3>Speech ↔ Text App</h3>
+               <p>Android app providing real-time speech-to-text and TTS with an accessible interface.</p>
+            </article>
+         </div>
+      </section>
+
+      <section id="skills" class="section">
+         <div class="container section-header">
+            <h2 class="large-heading">Skills</h2>
+         </div>
+         <div class="container card-grid two">
+            <div class="card">
+               <h3>AI & ML</h3>
+               <p>Deep Learning, LLMs, RAG, Diffusion, CV, NLP</p>
+            </div>
+            <div class="card">
+               <h3>Frameworks</h3>
+               <p>PyTorch, TensorFlow, Scikit-learn, LangChain, ResNet, GANs</p>
+            </div>
+            <div class="card">
+               <h3>Engineering</h3>
+               <p>Python, APIs, Data Pipelines, Edge AI, Security-minded dev</p>
+            </div>
+            <div class="card">
+               <h3>Soft Skills</h3>
+               <p>Leadership, Communication, Problem Solving, Critical Thinking</p>
+            </div>
+         </div>
+      </section>
+
+      <section id="contact" class="section muted">
+         <div class="container section-header">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s collaborate</h2>
+            <p class="section-lede">Based in Kathmandu, working remote-first. Open to AI/ML roles and collaborations.</p>
+         </div>
+         <div class="container contact-links">
+            <a href="mailto:cca.shivam123@gmail.com" class="contact-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/Shivam7700" target="_blank" class="contact-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shivam-kumar-1727a511a" target="_blank" class="contact-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/kumar.shivam.555030" target="_blank" class="contact-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/shivam_kmar/" target="_blank" class="contact-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <div class="container">
+         <p>© 2026 Shivam Kumar Gupta — AI Engineer</p>
+      </div>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
